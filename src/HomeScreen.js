@@ -1,15 +1,14 @@
-import React from 'react'
-import "../src/HomeScreen.css"
-import Nav from './Nav'
+import React from "react";
+import "../src/HomeScreen.css";
+import Banner from "./Banner";
+import Nav from "./Nav";
 export default function HomeScreen() {
-    return (
-        <div className="homescreen">
-       {/*Navbar*/}
+  return (
+    <div className="homescreen">
+      <Nav />
+      <Banner />
 
-        <Nav/>
-
-       {/*Banner*/}
-       {/*Row*/}
-        </div>
-    )
+      {/*Row*/}
+    </div>
+  );
 }
